@@ -1,0 +1,8 @@
+Perfil:
+https://github.com/CaroVischi-GitHubAccount/Ej1.github.io
+
+*Agregar nueva carpeta:
+-En logo control de cambios (al realizar algun cambio en la carpeta del proyecto,
+    aprace un simbolo de que hubo cambios y marca el archivo con color verde, porque no fue incluido en el repositorio)
+-Aparece un Drop down menu en azul con un check en CONFIRMACION, con las opciones hacer commit e insertar o hacer commit y sincronizar
+-Hacer click en commit e insertar.

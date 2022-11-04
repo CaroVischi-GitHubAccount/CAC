@@ -6,3 +6,7 @@ https://github.com/CaroVischi-GitHubAccount/Ej1.github.io
     aprace un simbolo de que hubo cambios y marca el archivo con color verde, porque no fue incluido en el repositorio)
 -Aparece un Drop down menu en azul con un check en CONFIRMACION, con las opciones hacer commit e insertar o hacer commit y sincronizar
 -Hacer click en commit e insertar.
+-abrir terminal y escribir git status: devuelve el estad de los archivos actuales, si se subieron o no al repositorio
+-terminal: git commit-m "NOmbre de la  version" 
+-terminal: git push
+

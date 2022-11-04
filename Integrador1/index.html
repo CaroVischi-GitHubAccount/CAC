@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Ej1-SPA</title>
+	<title>Integrador-JS</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -12,27 +12,27 @@
 <!--SECCION 1 NAV-->
     <nav class="navbar bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="..\img\codoacodo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-            Conf Bs As
-          </a>
-          <ul class="nav justify-content-right">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Los oradores</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">El Lugar y la Fecha</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#">Conviértete en orador</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#comprar_tickets" id="btn_tickets">Comprar tickets</a>
-            </li>
-          </ul>
+            <a class="navbar-brand" href="#">
+                <img src="..\img\codoacodo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Conf Bs As
+            </a>
+            <ul class="nav justify-content-right">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Los oradores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">El Lugar y la Fecha</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Conviértete en orador</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#comprar_tickets" id="btn_tickets" autofocus>Comprar tickets</a>
+                </li>
+            </ul>
         </div>  
     </nav>
     <!--SECCION 2 imagen con texto-->
@@ -201,7 +201,7 @@
                             <input type="text" class="form-control" id="apellido" placeholder="Apellido" aria-label="Last name">
                         </div>
                         <div class="col-md-12">
-                            <input type="text" class="form-control" id="mail" placeholder="Correo" aria-label="Mail">
+                            <input type="text" class="form-control" id="mail" placeholder="correo@mail.com" aria-label="Mail">
                         </div>
                         <div class="col-md-6">
                             <label for="inputCity" class="form-label">Cantidad</label>
@@ -225,7 +225,7 @@
                             <button type="button" class="btn btn-success col-md-12" id="btn_borrar">Borrar</button>
                         </div>
                         <div  class='col-md-6'>
-                            <button type="submit" class="btn btn-success col-md-12" id="btn_resumen">Resumen</button>
+                            <button type="button" class="btn btn-success col-md-12" id="btn_resumen">Resumen</button>
                         </div>
                 </div>
             </div>
@@ -239,43 +239,35 @@
 
 </body>
 <footer>
-    <!--<nav class="navbar bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="img\codoacodo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-            Conf Bs As
-          </a>
-          <ul class="nav justify-content-right">
-            <li class="nav-item">-->
 
-      <nav class="navbar">
+    <nav class="navbar">
         <div class="container-fluid justify-content-center">
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Preguntas Frecuentes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contáctanos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link ">Prensa</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Conferencias</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link">Términos y Condiciones</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link">Privacidad</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link">Estudiantes</a>
-            </li>
-          </ul>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Preguntas Frecuentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contáctanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ">Prensa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Conferencias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Términos y Condiciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Privacidad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Estudiantes</a>
+                </li>
+            </ul>
         </div>  
     </nav>
 </footer>
